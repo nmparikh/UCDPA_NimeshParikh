@@ -1,0 +1,15 @@
+#Create new Repo in github.com
+#Go to folder path and open cmd
+# install and setup git of not present
+#	git config --global usr.email <value>
+#	git config --global usr.name <value>
+
+git init
+git add .
+git commit -m "Setting up Repo"
+git branch -M "main"
+git remote add origin https://github.com/<<url>>
+git push origin main
+git pull
+
+git push --set-upstream origin main
